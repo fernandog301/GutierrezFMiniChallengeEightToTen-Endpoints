@@ -31,7 +31,7 @@ public class GuessItService : IGuessItService
         }
         else
         {
-            return "Invalid Input, please input a number that is 1-50";
+            return "Invalid Input, please input a number that is 1-10";
         }
     }
 
@@ -83,7 +83,7 @@ public class GuessItService : IGuessItService
         }
         else
         {
-            return "Invalid Input, please input a number that is 1-50";
+            return "Invalid Input, please input a number that is 1-100";
         }
     }
 }
