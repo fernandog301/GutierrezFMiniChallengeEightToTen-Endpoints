@@ -7,9 +7,9 @@ namespace GutierrezFMiniChallengeEightToTen_Endpoints.Services;
 
     public interface IGuessItService
     {
-            public string EasyMode(int number);
-            public string MediumMode(int number);
-            public string HardMode(int number);
+            public string EasyMode(string number);
+            public string MediumMode(string number);
+            public string HardMode(string number);
 
 
     }

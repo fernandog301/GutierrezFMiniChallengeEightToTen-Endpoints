@@ -16,21 +16,21 @@ namespace GutierrezFMiniChallengeEightToTen_Endpoints.Controllers
 
         [HttpGet]
         [Route("EasyMode/{number}")]
-        public string EasyMode(int number)
+        public string EasyMode(string number)
         {
             return _GuessItService.EasyMode(number);
         }
 
         [HttpGet]
         [Route("MediumMode/{number}")]
-        public string MediumMode(int number)
+        public string MediumMode(string number)
         {
             return _GuessItService.MediumMode(number);
         }
 
         [HttpGet]
         [Route("HardMode/{number}")]
-        public string HardMode(int number)
+        public string HardMode(string number)
         {
             return _GuessItService.HardMode(number);
         }
